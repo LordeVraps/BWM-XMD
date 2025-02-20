@@ -7,14 +7,14 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
+module.exports = { session: process.env.SESSION_ID || 'BWM-XMD;;;H4sIAAAAAAAAA5VU226rOBT9F7+SnnBLgEiVhktCCLlDQpLR0cgBhxgIUNuQ0Kr/fkTTqn2Yc6bDk2XjtZfXWnu/gLzAFLmoAYMXUBJcQ4baJWtKBAbAqE4nREAHRJBBMABDfbrMUivgz04Y8IJU9nUuUhancBKNFyzYPAk0uV6N7VLYPILXDiirY4bDPwDKN23YLHYV3Lh6Gc26J6trOJrlHctgyInJ7kClBefJdLtqAVtEiAnO42F5RhdEYOaiZgkx+R59VXfnuKcmKxurz5vNftisSK5OYbfrnNMeu3lX6B/PzZ7P9O/Rn9i+HvpRGFujIepGtjaea3W/drygicViJJ4ayS23V+fZonf6FMc5ipwI5Qyz5tu6c0YvPjOs6bLaH0Y07UqcNJX0bXjjIm6mn5+fNG93YnWUXb9HPFncGsVPEvlgLrP5YWcVhyBf88OwMUTdmeMgZ7G7IXPVD78SX5KPrKT/R3fe1hOa5qI38tieaKnhbtlFUvaectZnh3GyKKYsvWFxvKXfo891R9tMWB68Wd/qhS5nXqb6nFcdQtMnX15y/Z7KNA0K+m74SR+yivyJpan7vdq08+awgmJ1O4fTZb2wJ+TiV4EIx2qqW2tnPR9V84sVhJ4qU32vBTA2N1vBlMpwvM7X9OywPYaSZpRFL/fGyfXx7UUpapwIDITXDiAoxpQRyHCRt3t9rQNgVHsoJIi9qQtUmIzIbeIPj8mErzNtXXO6MHMvZ0nwb1E/c2xlur8mDB43j6ADSlKEiFIUjTFlBWlmiFIYIwoGf//sgBzd2N23tpokdsAJE8o2eVVmBYw+TP04hGFYVDnzmjw02wUiYMB/biPGcB7TVsYqhyQ84xqZZ8goGJxgRtFrB0SoxiFq8UDdPCnQn6N1YarXScnks/HPYtVSPhf5/Zee1g+PvHJ64HshfJD7Av+g9o7yg3RUlZMKBU3SItAB+L1l2ju/dRBXt2nqus+3jTaVxb7Bx6unobZI9iR9c+EuPSIoAgNGKtQBRximVekXKcr/gFus55FLfXU8c8VneXZYcNHkODEPy+fhF9y7pWDw8jmmzCJq8QRlubbXngw64PKWQNy+XFT6Wk8VeqooDQTxL/rj2uoIy/JHjlgL+655eyFCDOKMtimd7ny+cOyhWzvSkbdtPY11M9bBp0cfWb+HSYdr3UIZUXMxKCMySZ5SNxsjpzhuI6sfYmMmLFccTQOBPv4LCBiAqyF5TQSjSKSXwjP3u9zgyUhUtxLeEZurr3uIVbJYucYlpUadinsj8BQo4pl1sDRlatdasxPzWGWJ7MT71OnhvhE/ttXuWflabHqsbOWZHqzsKsQltzNkL6hcd7GvgxFXnyL1JCqVPdHmfq6NZsmOOwZjI1RnitENTb8/FuZNGa9TKzCn+cVc94anvZ7E9y58mwLZ+/TFbw3y8p6sE0ZvwyyHrUP/4c3XjPOvnS8Q79PxNzkyVna60qUSdida9rSDzb5fmuVawq4t7FZc7sT+3OeXZDJiR/D6+rMDygyyU0EuYABgHpECt72QQcr0zzb18QVRBi8lGAiKzPOKoGlyB1wavSw9BtlHdwO9/SxVAq+/AAvgMKL4BwAA',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Ibrahim Adams",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " Ibrahim Adams",              
+    OWNER_NAME: process.env.OWNER_NAME || "⁨𝙄𝘾𝙃𝙄𝙂𝙊☾⁩ -(5PHESIHLE)",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || " 𝙄𝘾𝙃𝙄𝙂𝙊☾⁩ -(5PHESIHLE',27695815823",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
-    BOT : process.env.BOT_NAME || 'BMW_MD',
-    URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/h2ydge.jpg',
+    BOT : process.env.BOT_NAME || '𝙂𝙀𝙏𝙎𝙐𝙂𝘼 𝙏𝙀𝙉𝙎𝙃𝙊𝙐',
+    URL : process.env.BOT_MENU_LINKS || 'https://files.catbox.moe/va51uv.mp4',
     MODE: process.env.PUBLIC_MODE || "yes",
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
